@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.flexContainer {
+  display: flex;
+  flex: 1;
+}
+
+.containerHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.headItem {
+  font-size: 20px;
+  font-weight: 600;
+  color: #d1d0d0;
+  transition-duration: 900ms;
+}
+
+.headItem:nth-child(2):hover {
+  transform: scale(1.5, 1.5);
+}
