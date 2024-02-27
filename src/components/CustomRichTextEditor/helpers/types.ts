@@ -3,3 +3,8 @@ export enum Decoratives {
   UNDERLINE = "underline",
   ITALICS = "italic",
 }
+
+export enum Script {
+  subscript = "subscript",
+  superscript = "superscript",
+}
